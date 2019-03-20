@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+		<style>
+		img.a {
+			vertical-align: baseline;
+		}
+		table, th, td {
+			border: 2px groove black;
+			border-collapse: collapse;
+			background-color: #ffccff;
+		}
+		</style>
+		</head>
+			<body style="background-color: #b3ffe0">
+				<h1 style="text-align: center;">
+					<img class="a" src="logo.png" alt="Citi_Bike" width="200" height="100">
+				</h1>
+				<h3 style="text-align: center;"> 
+					
+					<p>
+						Group 5: Austin Rickli, Andre Jenab, Jeff Olson
+					</p>
+				</h3>
+				<h5 style="text-align: center;">
+					<p> Hello, Please use UPPERCASE for SQL keywords and `column` type quotes for column if it has a space in it
+						<br>If using COUNT, please use 'count' as the alias, ie: COUNT(*) AS count AND PLEASE PUT A SPACE AFTER '('</br>
+						<br>Thank you </br>
+					</p>
+
+				</h5>
+				<form action="sendquery.php" method="POST" enctype="multipart/form-data">
+					<textarea name="Query" rows="6" cols="75" wrap="hard">
+					</textarea>
+				<p>
+					<input type="submit" value="Send Query" name="Send Query"/>
+					<input type="reset" value="Clear" name="Clear" />
+					<p>
+						<table style="text-align: left;">
+							<tr>
+								<th colspan="4">stations</th>
+							</tr>
+							<tr>
+								<td>stationid</td>
+								<td>stationname</td>
+								<td>stationlatitude</td>
+								<td>stationlongitude</td>
+							</tr>
+						</table>
+						<br></br>
+						<table style="text-align: left;">
+							<tr>
+								<th colspan="9">trips</th>
+							</tr>
+							<tr>
+								<td>bikeid</td>
+								<td>starttime</td>
+								<td>stoptime</td>
+								<td>tripduration</td>
+								<td>startstationid</td>
+								<td>endstationid</td>
+								<td>usertype</td>
+								<td>gender</td>
+								<td>birthyear</td>
+							</tr>
+						</table>
+					</p>
+				</p>
+				</form>
+
+			</body>
+	</html>

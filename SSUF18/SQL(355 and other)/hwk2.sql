@@ -1,0 +1,1 @@
+select distinct count(Name) from Universities where Name.system = "UC";
