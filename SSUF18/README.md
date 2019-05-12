@@ -1,3 +1,3 @@
 # SSUF18
 
-this mostly just contains work for my databases class
+'Project 1' is the first project we did in Theory of Computation
