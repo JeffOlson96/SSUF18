@@ -1,10 +1,9 @@
 <?php
 
 /*
-
+Jeff Olson
 
 php file that parses sql statement, queries database, and outputs data accordingly
-JO, AR, AJ
 Includes SQL parser that breaks up sql query and stores columns queried
 
 
