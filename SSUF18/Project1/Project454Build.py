@@ -1,12 +1,12 @@
 import sys
 
-buttsex = 8
+sizeCheck = 8
 
 
 def main():
 	inputSize = input("Enter a number: ")
 	print("Recieved input is: ", inputSize)
-	if (inputSize == buttsex):
+	if (inputSize == sizeCheck):
 		print("Hey it works")
 	transitions = [
 		[1,2,3 ],#start (empty)
